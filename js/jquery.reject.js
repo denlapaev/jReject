@@ -46,22 +46,22 @@ $.reject = function(options) {
 			},
 			firefox: {
 				text: 'Mozilla Firefox',
-				url: 'http://www.mozilla.com/firefox/',
+				url: 'https://www.mozilla.org/en-US/firefox/new/',
 				iconUrl: null
 			},
 			safari: {
 				text: 'Safari',
-				url: 'http://www.apple.com/safari/download/',
+				url: 'http://www.apple.com/safari/',
 				iconUrl: null
 			},
 			opera: {
 				text: 'Opera',
-				url: 'http://www.opera.com/download/',
+				url: 'http://www.opera.com/computer/',
 				iconUrl: null
 			},
 			msie: {
 				text: 'Internet Explorer',
-				url: 'http://www.microsoft.com/windows/Internet-explorer/',
+				url: 'http://windows.microsoft.com/en-us/internet-explorer/download-ie',
 				iconUrl: null
 			}
 		},
