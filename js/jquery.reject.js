@@ -152,7 +152,13 @@ $.reject = function(options) {
 
 		return false;
 	}
-
+	//# adds hook on reject as well as ability to override popup if function returns false
+	else if ($.isFunction(opts.onReject)) {
+		if (opts.onReject() === false) {
+			return false;
+		}
+	}
+		
 	// If user can close and set to remmember close, initiate cookie functions
 	if (opts.close && opts.closeCookie) {
 		// Local global setting for the name of the cookie used
