@@ -37,7 +37,7 @@
           // Text below the icon
           text: 'Google Chrome',
           // URL For icon/text link
-          url: 'http://www.google.com/chrome/',
+          url: 'https://www.google.com/chrome/browser/desktop/index.html',
           // Custom browser icon url
           iconUrl: null
           // (Optional) Use "allow" to customized when to show this option
@@ -46,7 +46,7 @@
         },
         firefox: {
           text: 'Mozilla Firefox',
-          url: 'https://www.mozilla.org/en-US/firefox/new/',
+          url: 'https://www.mozilla.org/ru/firefox/new/',
           iconUrl: null
         },
         safari: {
@@ -56,7 +56,7 @@
         },
         opera: {
           text: 'Opera',
-          url: 'http://www.opera.com/computer/',
+          url: 'http://www.opera.com/ru/computer',
           iconUrl: null
         },
         msie: {
