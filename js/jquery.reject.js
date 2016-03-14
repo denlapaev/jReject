@@ -377,7 +377,7 @@
       minWidth: displayNum * 100,
       maxWidth: displayNum === 1 ? 300 : displayNum * 140,
       // min/maxWidth not supported by IE
-      width: $.layout.name == 'trident' ? (displayNum === 1 ? 300 : displayNum * 155 ) : 'auto'
+      width: $.engine.name == 'trident' ? (displayNum === 1 ? 300 : displayNum * 155 ) : 'auto'
     });
 
     element.find('#jr_inner li').css({ // Browser list items (li)
